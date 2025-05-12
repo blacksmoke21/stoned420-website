@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Home from "./components/home";
+import Home from "./components/Home";
 import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
