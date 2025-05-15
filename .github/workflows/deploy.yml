@@ -25,10 +25,6 @@ jobs:
 
       - name: Build the site
         run: npm run build
-        env:
-          VITE_PB_URL: ${{ secrets.VITE_PB_URL }}
-          VITE_PB_EMAIL: ${{ secrets.VITE_PB_EMAIL }}
-          VITE_PB_PASSWORD: ${{ secrets.VITE_PB_PASSWORD }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
