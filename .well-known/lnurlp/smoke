@@ -1,0 +1,10 @@
+{
+  "callback": "https://livingroomofsatoshi.com/api/v1/lnurl/payreq/88b0850b-5861-4c34-8139-882e7b2f24c2",
+  "maxSendable": 100000000000,
+  "minSendable": 1000,
+  "metadata": "[[\"text/plain\",\"Pay to Wallet of Satoshi user: waxrail58\"],[\"text/identifier\",\"waxrail58@walletofsatoshi.com\"]]",
+  "commentAllowed": 255,
+  "tag": "payRequest",
+  "allowsNostr": true,
+  "nostrPubkey": "be1d89794bf92de5dd64c1e60f6a2c70c140abac9932418fee30c5c637fe9479"
+}
