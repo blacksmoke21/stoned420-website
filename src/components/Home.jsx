@@ -1,9 +1,4 @@
 const Home = () => {
-  return (
-    <div className="home">
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the home page of our application.</p>
-    </div>
-  );
-}
+  return <img className="h-screen w-full" src="/images/stoners.webp" />;
+};
 export default Home;
