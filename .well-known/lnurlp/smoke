@@ -1,10 +1,11 @@
 {
-  "allowsNostr": true,
+  "status": "OK",
+  "tag": "payRequest",
+  "commentAllowed": 255,
+  "callback": "https://lnwallet.app/.well-known/lnurlp/60bc5e/callback",
   "minSendable": 1000,
-  "maxSendable": 100000000000,
-  "metadata": "[[\"text/plain\",\"Paying purplesmoke@coinos.io\"],[\"text/identifier\",\"purplesmoke@coinos.io\"]]",
-  "nostrPubkey": "ba80990666ef0b6f4ba5059347beb13242921e54669e680064ca755256a1e3a6",
-  "commentAllowed": 512,
-  "callback": "https://coinos.io/api/lnurl/26d1f696-a0b9-4ba9-8852-b63f9e9b77ab",
-  "tag": "payRequest"
+  "maxSendable": 10000000000,
+  "metadata": "[[\"text/identifier\",\"smoke@stoned420.fun\"],[\"text/plain\",\"Sats for Purple Smoke\"]]",
+  "allowsNostr": true,
+  "nostrPubkey": "82eb17838630a8e7731fde0a4beff72b55096304f29e7ea7e44a731d54b88d9c"
 }
